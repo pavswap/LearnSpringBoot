@@ -1,6 +1,6 @@
 package com.pavswap.LearningSpringBoot.DI;
 
-public class MessageSenderIMPLI implements MessageSender{
+public class MessageSender{
 
     private final Message m;
 
