@@ -17,7 +17,6 @@ public class StudentController {
         this.studentRepository = studentRepository;
     }
 
-    // Home Page : http://localhost:8080/StudentDatabase/home
     @GetMapping("/home")
     public String home() {
         return "This is a Simple Student Database REST API";
